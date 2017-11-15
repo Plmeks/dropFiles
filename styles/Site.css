@@ -1,0 +1,35 @@
+/* line 1, Site.scss */
+#dropFiles {
+  width: 500px;
+  height: 300px;
+  background-color: #cfcfcf;
+  display: table;
+  border: 3px dashed #8d8d8d;
+}
+/* line 8, Site.scss */
+#dropFiles.over {
+  background-color: #333333;
+}
+/* line 12, Site.scss */
+#dropFiles p {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Open Sans';
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 24, Site.scss */
+#dropInfo {
+  width: 500px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: #333;
+}
+/* line 30, Site.scss */
+#dropInfo P {
+  color: white;
+}
